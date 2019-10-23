@@ -1,8 +1,8 @@
 ---
-title: "Example Title"
-date: "2019-03-17"
-draft: false
-path: "/blog/example-title"
+title: "Grief in Horror"
+date: "2019-10-17"
+draft: true
+path: "/blog/grief-in-horror"
 ---
 # H1
 
