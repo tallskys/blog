@@ -4,11 +4,11 @@ import LandingBio from "../components/landing-bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const MusicPage = () => (
+const CodePage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <LandingBio />
   </Layout>
 )
 
-export default MusicPage
+export default CodePage
