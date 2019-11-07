@@ -13,7 +13,6 @@ const Image = styled.img`
 const IndexPage = () => (
   <Layout>
     <SEO title="Tanner Carrico" keywords={[`tanner carrico`, `application`, `react`]} />
-    <Image src={Logo} />
     <LandingBio />
   </Layout>
 )
