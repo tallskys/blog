@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Autumn Playlist"
 date: "2019-11-02"
 draft: true
