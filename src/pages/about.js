@@ -18,8 +18,8 @@ const AboutPage = () => (
         <p>
         I am a professional web developer with a talent for clean and simple designs.<br />
         I am a writer of all things including technical write-ups, fiction, and everything in between. <br />
-        I am a man of few words. <br />
-        If you need work done and want it swiftly and professionally, you can reach me here: me@tannercarri.co
+        I am an honest and hard-working person. <br />
+        If you need work done and want it swiftly and professionally, you can reach me here: <a href="mailto:me@tannercarri.co">me@tannercarri.co</a>
         </p>
         <Image src={ProfilePic} alt="profile pic" />
     </AboutLayout>
