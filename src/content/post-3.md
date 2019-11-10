@@ -1,6 +1,6 @@
 ---
 title: "Creating an Infinite Scroll Gallery with Gatsby"
-date: "2019-11-01"
+date: "2019-11-10"
 draft: true
 path: "/blog/gatsby-infinite-scroll"
 ---
@@ -246,7 +246,7 @@ Once you save the page, the browser should refresh with the complete pages thoug
 
 You can restart the dev server to rebuild.
 
-## **[Create The Image Gallery](https://scotch.io/tutorials/build-an-infinite-scroll-image-gallery-with-gatsby-and-netlify-functions#toc-create-the-image-gallery)**
+## Create The Image Gallery
 
 Like we stated earlier, the good thing about building with tools like Gatsby is we can make API calls in components and pass the data to the DOM during runtime, giving the experience of a dynamic app in a static environment. The `react-infinite-scroll-component` will be used to create the infinite scroll whereas the Images will be fetched from Unsplash using netlify functions.
 
@@ -400,7 +400,7 @@ Assign the Proptypes to the `ImageGallery` component and export the `Infinite
 
 With this, we have the gallery set up, what's missing is the API endpoint. We'll proceed to define a Netlify function to handle that.
 
-## **[Create The Netlify Function](https://scotch.io/tutorials/build-an-infinite-scroll-image-gallery-with-gatsby-and-netlify-functions#toc-create-the-netlify-function)**
+## Create The Netlify Function
 
 Netlify functions are AWS lambdas managed directly on Netlify. With this, we abstract the management and scaling of a traditional server. Multiple functions can be created and used across an application after the application is built.
 
@@ -575,7 +575,7 @@ At this point, the app works on our local environment. Before deploying to Netli
 
 Run a Gatsby build to verify the build process works without errors. Do this with:
 
-`gatsby build`
+`netsby build`
 
 Next is to deploy to a Git provider.
 
@@ -600,12 +600,6 @@ Hit the "Deploy site" button to deploy.
 Netlify deploys the site and utilizes the functions in the functions directory after build. These functions are not exposed on the client side except the functions directory is in the publish directory.
 
 Note that the build command, publish directory and environment variables can also be set in the `netlify.toml` file of the project.
-
-You can find the final deployed site at [https://gastify.netlify.com](https://gastify.netlify.com/)
-
-You can find the repository here: [https://github.com/Chuloo/gatsby-netlify-functions](https://github.com/Chuloo/gatsby-netlify-functions)
-
-## **[Conclusion](https://scotch.io/tutorials/build-an-infinite-scroll-image-gallery-with-gatsby-and-netlify-functions#toc-conclusion)**
 
 In this post, we saw an overview of static sites, their features, importance, going dynamic with fetching dynamic content using serverless functions and an overview of serverless functions.
 
