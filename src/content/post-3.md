@@ -1,6 +1,6 @@
 ---
 title: "Weekly Reads"
-date: "2019-11-11"
+date: "2019-11-09"
 draft: true
 path: "/blog/nov-08-reads"
 ---
