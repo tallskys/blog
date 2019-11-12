@@ -1,5 +1,5 @@
 ---
-title: "Javascript Scope"
+title: "JavaScript Scope"
 date: "2019-11-11"
 draft: true
 path: "/blog/js-scope"

@@ -4,7 +4,7 @@ code {
 
 body {
   margin: 0;
-  font-family: 'Lato', 'Noto Sans', 'sans-serif';
+  font-family: 'Lato', 'Noto Sans', 'Karla', 'sans-serif';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

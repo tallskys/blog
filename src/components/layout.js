@@ -14,6 +14,7 @@ import Header from "./header"
 import "./layout.css"
 
 const Content = styled.div`
+  font-family: 'Libre Baskerville', serif;
   margin: 0 auto;
   max-width: 860px;
   padding: 0 1.0875rem 1rem;
