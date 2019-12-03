@@ -15,10 +15,9 @@ const AboutPage = () => (
       <SEO title="About" />
       
         <h1>About Me</h1>
+        
         <p>
-        I am a professional web developer with a talent for clean and simple designs.<br />
-        I am a writer of all things including technical write-ups, fiction, and everything in between. <br />
-        I am an honest and hard-working person who also has some cool tattoos and a really good Tetris high score. <br />
+        I'm a former electrician/barista/bathroom renovator/retail worker/line chef, and currently I'm a QA Analyst at a software company and a freelance web developer and writer. I've had a weird life, but I'm pretty happy with the person who is the end result. I make music in my free time as Tall Sky, which is a John Ashbery reference because I'm also a huge poetry dork. I'm trying to be a better person everyday, that's about as deep as my personal philosphy gets. <br />
         If you need any work done and want it swiftly and professionally, you can reach me here: <a href="mailto:me@tannercarri.co">me@tannercarri.co</a>
         </p>
         <Image src={ProfilePic} alt="profile pic" />
