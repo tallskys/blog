@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-julia",
+  "name": "tannercarrico",
   "private": true,
-  "description": "A minimal blog template built with Gatsby",
+  "description": "A place with words",
   "version": "0.1.0",
-  "author": "Niklas Metje <hi@niklasmtj.de>",
+  "author": "",
   "dependencies": {
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.11",
@@ -32,7 +32,10 @@
     "prettier": "^1.17.1"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "Tanner",
+    "Carrico",
+    "Tanner Carrico"
   ],
   "license": "MIT",
   "scripts": {
