@@ -22,7 +22,8 @@ const Description = styled.p`
 `
 
 const NameHeader = styled.h1`
-  font-size: 3.5rem;
+  font-family: 'Gelasio', serif;
+  font-size: 4.5rem;
   margin-bottom: 0;
 `
 

@@ -25,7 +25,6 @@ const HeaderDate = styled.h3`
 // STYLE THE TAGS INSIDE THE MARKDOWN HERE
 const MarkdownContent = styled.div`
   a {
-    text-decoration: none;
     position: relative;
   }
 

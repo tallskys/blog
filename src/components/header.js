@@ -4,6 +4,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Content = styled.div`
+  font-family: 'Baskervville', serif;
   max-width: 860px;
   padding: 1rem 1.0875rem;
   font-size: 1.2rem;
