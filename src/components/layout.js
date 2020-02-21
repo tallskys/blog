@@ -27,7 +27,7 @@ const Footer = styled.footer`
 `
 
 const GitHubLink = styled.a`
-  color: black;
+  color: #EAEAEA;
   margin-left: 15px;
   text-decoration: none;
   display: inline-block;

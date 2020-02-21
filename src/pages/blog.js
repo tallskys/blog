@@ -14,7 +14,7 @@ const Content = styled.div`
 
 const ArticleDate = styled.h5`
   display: inline;
-  color: #606060;
+  color: #E8DAB2;
   margin-bottom: 10px;
 `
 
@@ -22,12 +22,12 @@ const MarkerHeader = styled.h3`
   display: inline;
   border-radius: 1em 0 1em 0;
   margin-bottom: 10px;
-  background-image: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+  background-image: linear-gradient(to right,rgba(48, 52, 63, 1) 0%,rgba(48, 52, 63, 1) 41%, rgba(48, 52, 63, 1) 100%);
 `
 
 const ReadingTime = styled.h5`
   display: inline;
-  color: #606060;
+  color: #EAEAEA;
   margin-bottom: 10px;
 `
 

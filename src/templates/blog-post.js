@@ -13,13 +13,13 @@ const Content = styled.div`
 const MarkedHeader = styled.h1`
   display: inline;
   border-radius: 1em 0 1em 0;
-  background-image: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+  background-image: linear-gradient(to right,rgba(48, 52, 63, 1) 0%,rgba(48, 52, 63, 1) 41%, rgba(48, 52, 63, 1) 100%);;
   );
 `
 
 const HeaderDate = styled.h3`
   margin-top: 10px;
-  color: #606060;
+  color: #FAFAFF;
 `
 
 // STYLE THE TAGS INSIDE THE MARKDOWN HERE
