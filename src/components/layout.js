@@ -26,6 +26,12 @@ const Footer = styled.footer`
   justify-content: center;
 `
 
+const Circle = styled.div`
+  display: flex; 
+  justify-content: left;
+
+`
+
 const GitHubLink = styled.a`
   color: #EAEAEA;
   margin-left: 15px;
@@ -99,6 +105,9 @@ const Layout = ({ children }) => (
         <GitHubLink href="https://github.com/tallskys">
           GitHub
         </GitHubLink>
+        <Circle>
+          
+        </Circle>
         <DribbleLink href="/">
           
         </DribbleLink>
